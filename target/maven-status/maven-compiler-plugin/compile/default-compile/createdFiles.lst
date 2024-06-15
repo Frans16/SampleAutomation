@@ -1,0 +1,6 @@
+com/locators/Checkout.class
+com/actions/CheckoutAction.class
+com/locators/Login.class
+com/utils/HelperClass.class
+com/actions/LoginAction.class
+com/utils/CustomKeywords.class

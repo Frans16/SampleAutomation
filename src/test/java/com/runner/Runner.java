@@ -1,0 +1,19 @@
+package com.runner;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		tags = "", 
+		features = "src/test/resources/soucedemo.feature", 
+		glue = {"com/stepDefinitions"},
+		plugin = {"json:target/cucumber-reports/cucumber.json","html:target/cucumber-reports/cucumber.html"},
+		monochrome = true
+		)
+
+public class Runner {
+
+}
